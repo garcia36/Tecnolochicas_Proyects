@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.nav-img{
+    display: flex;
+    align-content: center !important;
+    background-color: black;
+}
+.nav-img>img{
+    max-width: 10.6rem;
+    max-height: 17.5rem;
+}
+
+nav{
+    height: 80px;
+    font-size: 20px;
+    background-color: rgb(20, 13, 27)!important;
+    font-family: Bahnschrift-condensed-bold;
+    font-weight: bold;
+}
+nav>a,nav>div>div>a{
+    color: white;
+    padding: 15px;
+}
+nav>a:hover,nav>div>div>a:hover {
+    color: rgb(220, 161, 252);
+}
+.form-inline{
+    position: relative;
+    margin-right: 0% !important;
+    padding-left: 85% ;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    align-content: space-between;
+    text-align: center;
+    color: #f5f5dc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+.footer>div>h4{
+    padding-top: 25px;
+}
+
+.card-integrantes,.card-album{
+    padding: 15px;
+    width: 100%;
+    align-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card{
+    margin: 10px;
+}
+.cards{
+    margin: 2px;
+}
+.card-album>.card>.card-img-top{
+    max-width: 10rem;
+    max-height: 12rem;
+}
+.card-img-top{
+    max-width: 15rem;
+    max-height: 17.5rem;
+}
+.links{
+    color: rgb(78, 25, 129);
+}
+.links:hover{
+    color: rgb(86, 0, 167);
+}

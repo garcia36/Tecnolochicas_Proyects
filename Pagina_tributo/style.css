@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.nav-img{
+    display: flex;
+    align-content: center !important;
+    background-color: black;
+}
+.nav-img>img{
+    max-width: 10.6rem;
+    max-height: 17.5rem;
+}
+
+nav{
+    height: 80px;
+    font-size: 20px;
+    background-color: rgb(20, 13, 27)!important;
+    font-family: Bahnschrift-condensed-bold;
+    font-weight: bold;
+}
+nav>a,nav>div>div>a{
+    color: white;
+    padding: 15px;
+}
+nav>a:hover,nav>div>div>a:hover {
+    color: rgb(220, 161, 252);
+}
+.form-inline{
+    position: relative;
+    margin-right: 0% !important;
+    padding-left: 85% ;
+}
+.principal{
+    height: 600px;
+    padding: 15px;
+}
+.principal>div>h1{
+    padding-top: 10px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(14, 14, 14);
+}
+.principal>div>h2{
+    padding-top: 5px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(14, 14, 14);
+}
+.texto-principal{
+    text-align: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 15px;
+    color: rgb(14, 14, 14);
+}
+.links{
+    color: rgb(78, 25, 129);
+}
+.links:hover{
+    color: rgb(86, 0, 167);
+}
+.footer{
+    background-color: black;
+    display: flex;
+    align-content: space-between;
+    text-align: center;
+    color: #f5f5dc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+.footer>div>h4{
+    padding-top: 25px;
+}
+.premios{
+    float:right;
+    width:25%; 
+    background-color: rgba(223, 206, 255, 0.862);
+    height: 550px;
+    padding-top: 15px;
+    text-align: left;
+}
+.premios>h2{
+    text-align: center;
+    font-size: 25px !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(14, 14, 14);
+}
+.cards>.card-title{
+    font-size: 15px;
+}
